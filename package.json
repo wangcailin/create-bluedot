@@ -1,13 +1,14 @@
 {
   "name": "create-bluedot",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Template",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "files": [
+    "cli.js",
+    "index.js",
+    "lib"
+  ],
   "bin": {
-    "create-bluedot": "./bin/bt.js"
+    "create-bluedot": "cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +17,7 @@
     "create-bluedot"
   ],
   "author": "bimuyu",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.0",
     "commander": "^5.1.0",

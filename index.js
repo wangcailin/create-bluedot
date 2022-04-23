@@ -1,5 +1,3 @@
-const hello = function (key) {
-  console.log('Hello World!');
-};
+const run = require('./lib/run');
 
-exports.hello = hello;
+module.exports.run = run;
