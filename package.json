@@ -1,6 +1,6 @@
 {
-  "name": "bluedot-template",
-  "version": "1.0.24",
+  "name": "create-bluedot",
+  "version": "1.0.0",
   "description": "Template",
   "main": "index.js",
   "directories": {
@@ -13,7 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "bluedot-template"
+    "create-bluedot"
   ],
   "author": "bimuyu",
   "license": "ISC",

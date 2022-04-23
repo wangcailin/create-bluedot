@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const inquirer = require('inquirer');
-const bt = require('../src/generate');
-const utils = require('../src/utils/checkUpdate');
+const bt = require('./src/generate');
+const utils = require('./src/utils/checkUpdate');
 // 当前系统是Windows还是mac;
 const isWin = /^win/.test(process.platform);
 let packagePath = '/usr/local/lib/node_modules'; // node_modules全局路径
