@@ -1,0 +1,27 @@
+{
+  "name": "bluedot-template",
+  "version": "1.0.24",
+  "description": "Template",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "bin": {
+    "create-bluedot": "./bin/bt.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bluedot-template"
+  ],
+  "author": "bimuyu",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^5.1.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^9.0.1",
+    "inquirer": "^7.3.0"
+  }
+}
