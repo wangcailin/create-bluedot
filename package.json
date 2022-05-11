@@ -1,6 +1,6 @@
 {
   "name": "create-bluedot",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Template",
   "files": [
     "cli.js",
@@ -43,7 +43,6 @@
     "@types/jest": "^24.0.19",
     "coffee": "^5.2.1",
     "mm": "^2.5.0",
-    "np": "^5.0.1",
-    "umi-test": "^1.8.2"
-  },
+    "np": "^5.0.1"
+  }
 }
