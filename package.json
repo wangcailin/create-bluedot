@@ -1,6 +1,6 @@
 {
   "name": "create-bluedot",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Template",
   "files": [
     "cli.js",
@@ -23,6 +23,27 @@
     "commander": "^5.1.0",
     "download-git-repo": "^3.0.2",
     "fs-extra": "^9.0.1",
-    "inquirer": "^7.3.0"
-  }
+    "inquirer": "^7.3.0",
+    "yargs-parser": "^21.0.1",
+    "clipboardy": "^2.1.0",
+    "debug": "^4.1.1",
+    "execa": "^1.0.0",
+    "glob": "^7.1.4",
+    "mkdirp": "^0.5.1",
+    "prettier": "^2.0.0",
+    "semver": "^6.1.0",
+    "sort-package-json": "^1.22.1",
+    "sylvanas": "^0.6.1",
+    "typescript": "^4.0.0",
+    "umi-utils": "^1.5.2",
+    "yeoman-environment": "^2.8.0",
+    "yeoman-generator": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.19",
+    "coffee": "^5.2.1",
+    "mm": "^2.5.0",
+    "np": "^5.0.1",
+    "umi-test": "^1.8.2"
+  },
 }
