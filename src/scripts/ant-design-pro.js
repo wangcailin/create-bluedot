@@ -2,7 +2,7 @@ const download = require('download-git-repo');
 
 exports.run = function (name) {
   download(
-    'direct:https://gitee.com/blue-dot-cn_cailin__wang/bluedot-antd-pro.git',
+    'direct:https://github.com/wangcailin/bluedot-antd-pro.git',
     name,
     { clone: true },
     function (err) {
